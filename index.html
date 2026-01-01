@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média Aluno</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="containerNotas">
+        <p id="pNotas">NOTAS: </p>
+    </div>
+
+    <div class="containerMain">
+        <input type"number" id="inputNotas">
+        <input type="button" value="ADICIONAR" id="btnAddNota" class="btn" onclick="inserirNota()">
+        <input type="button" value="REMOVER" class="btn" onclick="removerNota()">
+    </div>
+
+    <p id="pResultado">MÉDIA: </p>
+    <p id="pMensagem"></p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
